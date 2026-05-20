@@ -1,4 +1,6 @@
-venv/*
-.venv
-.vscode
-.Assignment 1.txtZone.Identifier
+venv/
+.venv/
+.vscode/
+*.Zone.Identifier
+__pycache__/
+.ipynb_checkpoints/
