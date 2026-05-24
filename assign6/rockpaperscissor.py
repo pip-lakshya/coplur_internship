@@ -1,3 +1,4 @@
+#2) Try building today's game yourself
 import random
 list=["Rock","Paper","Scissor"]
 usercount=0
