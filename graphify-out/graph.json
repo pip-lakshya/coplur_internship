@@ -1,0 +1,131 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "whatsapp.py",
+      "file_type": "code",
+      "source_file": "whatsapp.py",
+      "source_location": "L1",
+      "id": "whatsapp_py",
+      "community": 1,
+      "norm_label": "whatsapp.py"
+    },
+    {
+      "label": "test.py",
+      "file_type": "code",
+      "source_file": "test.py",
+      "source_location": "L1",
+      "id": "test_py",
+      "community": 2,
+      "norm_label": "test.py"
+    },
+    {
+      "label": "csv_assign.py",
+      "file_type": "code",
+      "source_file": "assign5/csv_assign.py",
+      "source_location": "L1",
+      "id": "assign5_csv_assign_py",
+      "community": 3,
+      "norm_label": "csv_assign.py"
+    },
+    {
+      "label": "dbpractice.py",
+      "file_type": "code",
+      "source_file": "assign5/dbpractice.py",
+      "source_location": "L1",
+      "id": "assign5_dbpractice_py",
+      "community": 4,
+      "norm_label": "dbpractice.py"
+    },
+    {
+      "label": "crypto.py",
+      "file_type": "code",
+      "source_file": "assign6/crypto.py",
+      "source_location": "L1",
+      "id": "assign6_crypto_py",
+      "community": 5,
+      "norm_label": "crypto.py"
+    },
+    {
+      "label": "rockpaperscissor.py",
+      "file_type": "code",
+      "source_file": "assign6/rockpaperscissor.py",
+      "source_location": "L1",
+      "id": "assign6_rockpaperscissor_py",
+      "community": 0,
+      "norm_label": "rockpaperscissor.py"
+    },
+    {
+      "label": "userwin()",
+      "file_type": "code",
+      "source_file": "assign6/rockpaperscissor.py",
+      "source_location": "L7",
+      "id": "assign6_rockpaperscissor_userwin",
+      "community": 0,
+      "norm_label": "userwin()"
+    },
+    {
+      "label": "compwin()",
+      "file_type": "code",
+      "source_file": "assign6/rockpaperscissor.py",
+      "source_location": "L13",
+      "id": "assign6_rockpaperscissor_compwin",
+      "community": 0,
+      "norm_label": "compwin()"
+    },
+    {
+      "label": "menu()",
+      "file_type": "code",
+      "source_file": "assign6/rockpaperscissor.py",
+      "source_location": "L19",
+      "id": "assign6_rockpaperscissor_menu",
+      "community": 0,
+      "norm_label": "menu()"
+    },
+    {
+      "label": "weather.py",
+      "file_type": "code",
+      "source_file": "assign6/weather.py",
+      "source_location": "L1",
+      "id": "assign6_weather_py",
+      "community": 6,
+      "norm_label": "weather.py"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assign6/rockpaperscissor.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "assign6_rockpaperscissor_py",
+      "target": "assign6_rockpaperscissor_userwin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assign6/rockpaperscissor.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "assign6_rockpaperscissor_py",
+      "target": "assign6_rockpaperscissor_compwin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assign6/rockpaperscissor.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "assign6_rockpaperscissor_py",
+      "target": "assign6_rockpaperscissor_menu",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "a4c8103fc373bdfa8b434158dee8051c31120320"
+}
